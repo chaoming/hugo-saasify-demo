@@ -1,5 +1,18 @@
 ---
 title: Home
+client_logos:
+  - name: "TechCorp"
+    logo: "/images/client-logo-1.svg"
+  - name: "InnovateLabs"
+    logo: "/images/client-logo-1.svg"
+  - name: "DataFlow"
+    logo: "/images/client-logo-1.svg"
+  - name: "CloudSys"
+    logo: "/images/client-logo-1.svg"
+  - name: "SmartTech"
+    logo: "/images/client-logo-1.svg"
+  - name: "FutureAI"
+    logo: "/images/client-logo-1.svg"
 ---
 
 {{< hero 
@@ -12,3 +25,5 @@ title: Home
     hero_image="/images/hero-dashboard.svg"
     background_color_gradient="from-blue-50 to-white"
 >}}
+
+{{< client-logos animate="true" >}}
