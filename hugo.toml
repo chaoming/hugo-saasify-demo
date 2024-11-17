@@ -17,6 +17,20 @@ enableGitInfo = true
   description = "A modern Hugo website"
   author = "Chaoming Li"
 
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.80.0"
+
+[build]
+  writeStats = true
+
+[build.buildStats]
+  enable = true
+
+[security.funcs]
+  getenv = ['^HUGO_', '^CI$']
+
 [markup]
   [markup.highlight]
     noClasses = false
