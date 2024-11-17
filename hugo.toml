@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://saasify-demo.chaoming.li/"
 languageCode = "en-us"
 title = "Hugo Saasify Demo"
 theme = "hugo-saasify-theme"
