@@ -1,16 +1,14 @@
 ---
-title: "Welcome to Hugo Saasify Demo"
-date: 2024-01-01
-draft: false
+title: Home
 ---
 
-# Welcome to Hugo Saasify Demo
-
-This is a modern Hugo website built without any theme. It provides a clean foundation for building a custom design.
-
-## Features
-
-- Fast and lightweight
-- Built with Hugo
-- Customizable design
-- Modern web technologies
+{{< hero 
+    headline="Unlock the Hidden Revenue in Your User Journeys"
+    sub_headline="Transform your user experience with powerful analytics and insights that drive growth and engagement."
+    primary_button_text="Get Started Free"
+    primary_button_url="#"
+    secondary_button_text="Schedule Demo"
+    secondary_button_url="#"
+    hero_image="/images/hero-dashboard.svg"
+    background_color_gradient="from-blue-50 to-white"
+>}}
