@@ -16,6 +16,38 @@ enableGitInfo = true
 [params]
   description = "A modern Hugo website"
   author = "Chaoming Li"
+  
+  [params.header]
+    # Header background and border styles (optional)
+    background = "bg-white/80 backdrop-blur-sm"
+    border = "border-b border-gray-100"
+    
+    # Logo configuration
+    [params.header.logo]
+      src = "/images/saasfiy-logo.svg"
+      class = "h-8"
+    
+    # Menu configuration
+    [params.header.menu]
+      spacing = "space-x-8"
+      linkClass = "text-gray-600 hover:text-primary-600 font-medium transition duration-200"
+      mobileLinkClass = "block text-gray-600 hover:text-primary-600 font-medium transition duration-200 py-2"
+    
+    # Button configuration
+    [params.header.buttons]
+      # Sign In button
+      [params.header.buttons.signIn]
+        text = "Sign in"
+        url = "/signin"
+        class = "inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition duration-200 ease-in-out border-2 border-gray-200 hover:border-primary-600 hover:text-primary-600"
+        mobileClass = "block text-center inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition duration-200 ease-in-out border-2 border-gray-200 hover:border-primary-600 hover:text-primary-600"
+      
+      # Get Started button
+      [params.header.buttons.getStarted]
+        text = "Get Started"
+        url = "/get-started"
+        class = "inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition duration-200 ease-in-out bg-primary-600 text-white hover:bg-primary-700 hover:scale-105"
+        mobileClass = "block text-center inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition duration-200 ease-in-out bg-primary-600 text-white hover:bg-primary-700 hover:scale-105"
 
 [module]
   [module.hugoVersion]
@@ -37,3 +69,22 @@ enableGitInfo = true
     lineNos = true
   [markup.goldmark.renderer]
     unsafe = true
+
+# Navigation Menu
+[menu]
+  [[menu.main]]
+    name = "Features"
+    url = "/features"
+    weight = 1
+  [[menu.main]]
+    name = "Pricing"
+    url = "/pricing"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 4
