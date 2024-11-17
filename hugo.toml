@@ -1,0 +1,25 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Hugo Saasify Demo"
+theme = "hugo-saasify-theme"
+
+# Enable syntax highlighting
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+# Enable emoji support
+enableEmoji = true
+
+# Enable Git info for lastmod
+enableGitInfo = true
+
+[params]
+  description = "A modern Hugo website"
+  author = "Chaoming Li"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    lineNos = true
+  [markup.goldmark.renderer]
+    unsafe = true
