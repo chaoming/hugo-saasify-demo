@@ -54,6 +54,9 @@ jobs:
         run: |
           hugo version
           hugo --minify
+          ls -la public/
+          echo "Content of public directory:"
+          find public/ -type f
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
