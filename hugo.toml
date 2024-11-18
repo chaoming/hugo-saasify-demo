@@ -14,8 +14,23 @@ enableEmoji = true
 enableGitInfo = true
 
 [params]
-  description = "A modern Hugo website"
+  description = ""
   author = "Chaoming Li"
+  logo = "/images/logo.svg"
+  
+  # Social Media Links
+  [params.social]
+    linkedin = "https://linkedin.com/in/chaomingli"
+    twitter = "https://twitter.com/lichaoming"
+    youtube = "https://youtube.com/@chaomingli"
+    facebook = "https://facebook.com/lichaoming"
+    instagram = "https://instagram.com/lichaoming"
+    github = "https://github.com/chaoming"
+  
+  # Footer Configuration
+  [params.footer]
+    column_1_title = "PRODUCT"
+    column_2_title = "COMPANY"
   
   [params.header]
     # Header background and border styles (optional)
@@ -87,3 +102,31 @@ enableGitInfo = true
     name = "Blog"
     url = "/blog"
     weight = 4
+
+  # Footer Column 1 Menu
+  [[menu.footer_column_1]]
+    name = "Features"
+    url = "/features"
+    weight = 1
+  [[menu.footer_column_1]]
+    name = "Pricing"
+    url = "/pricing"
+    weight = 2
+  [[menu.footer_column_1]]
+    name = "Documentation"
+    url = "/docs"
+    weight = 3
+
+  # Footer Column 2 Menu
+  [[menu.footer_column_2]]
+    name = "About"
+    url = "/about"
+    weight = 1
+  [[menu.footer_column_2]]
+    name = "Blog"
+    url = "/blog"
+    weight = 2
+  [[menu.footer_column_2]]
+    name = "Careers"
+    url = "/careers"
+    weight = 3
