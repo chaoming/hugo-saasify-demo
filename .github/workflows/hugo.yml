@@ -37,6 +37,7 @@ jobs:
           
       - name: Install Node.js dependencies
         run: |
+          echo "Current directory: $PWD"
           echo "Node version: $(node -v)"
           echo "NPM version: $(npm -v)"
           npm ci
@@ -52,11 +53,23 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          echo "Current directory: $PWD"
+          echo "Directory contents:"
+          ls -la
+          echo "Hugo version:"
           hugo version
-          hugo --minify
-          ls -la public/
-          echo "Content of public directory:"
-          find public/ -type f
+          echo "Building site..."
+          hugo --minify --debug
+          echo "Build complete. Checking output:"
+          if [ -d "public" ]; then
+            echo "public directory exists"
+            ls -la public/
+            echo "Files in public directory:"
+            find public/ -type f
+          else
+            echo "Error: public directory not found!"
+            exit 1
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
