@@ -28,18 +28,20 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          path: .
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-          cache-dependency-path: './hugo-saasify-demo/package-lock.json'
+          cache-dependency-path: 'package-lock.json'
           
       - name: Install Node.js dependencies
-        working-directory: ./hugo-saasify-demo
         run: |
           echo "Current directory: $PWD"
+          echo "Directory contents:"
+          ls -la
           echo "Node version: $(node -v)"
           echo "NPM version: $(npm -v)"
           npm ci
@@ -51,16 +53,16 @@ jobs:
           extended: true
 
       - name: Verify theme
-        working-directory: ./hugo-saasify-demo
         run: |
           echo "Current directory: $PWD"
+          echo "Directory contents:"
+          ls -la
           echo "Theme directory contents:"
           ls -la themes/hugo-saasify-theme/
           echo "Config file contents:"
           cat hugo.toml
 
       - name: Build with Hugo
-        working-directory: ./hugo-saasify-demo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
@@ -84,7 +86,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./hugo-saasify-demo/public
+          path: public
 
   deploy:
     environment:
