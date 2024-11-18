@@ -18,6 +18,7 @@ concurrency:
 defaults:
   run:
     shell: bash
+    working-directory: hugo-saasify-demo
 
 jobs:
   build:
@@ -48,14 +49,20 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Verify theme
+        run: |
+          echo "Current directory: $PWD"
+          echo "Theme directory contents:"
+          ls -la themes/hugo-saasify-theme/
+          echo "Config file contents:"
+          cat hugo.toml
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
           echo "Current directory: $PWD"
-          echo "Directory contents:"
-          ls -la
           echo "Hugo version:"
           hugo version
           echo "Building site..."
@@ -74,7 +81,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: hugo-saasify-demo/public
 
   deploy:
     environment:
