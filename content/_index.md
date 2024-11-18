@@ -27,3 +27,34 @@ client_logos:
 >}}
 
 {{< client-logos animate="true" >}}
+
+{{< features-section 
+    title="Powerful Features for Modern Teams"
+    description="Discover how our platform helps you understand and optimize every aspect of your user experience."
+>}}
+
+{{< feature
+    title="Deep Insights into User Behavior"
+    description="Track and analyze user interactions in real-time. Understand how users navigate your product and identify opportunities for improvement."
+    badge="User Analytics"
+    badgeColor="primary"
+    image="/images/feature-analytics.svg"
+    buttonText="Learn More"
+    buttonLink="#"
+    features="Real-time user tracking,Behavioral analytics,Custom event tracking,User flow visualization"
+    imagePosition="right"
+>}}
+
+{{< feature
+    title="Watch Real User Sessions"
+    description="Understand exactly how users interact with your product through high-fidelity session recordings and heatmaps."
+    badge="Session Replay"
+    badgeColor="secondary"
+    image="/images/feature-session.svg"
+    buttonText="Learn More"
+    buttonLink="#"
+    features="Full session recordings,Click and scroll heatmaps,Error tracking,User journey analysis"
+    imagePosition="left"
+>}}
+
+{{< /features-section >}}
