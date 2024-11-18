@@ -24,7 +24,7 @@ enableGitInfo = true
     
     # Logo configuration
     [params.header.logo]
-      src = "/images/saasify-logo.svg"
+      src = "/images/logo.svg"
     
     # Menu configuration
     [params.header.menu]
