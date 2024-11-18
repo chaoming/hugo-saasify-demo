@@ -28,23 +28,24 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-          path: .
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: 'package-lock.json'
           
       - name: Install Node.js dependencies
         run: |
           echo "Current directory: $PWD"
           echo "Directory contents:"
           ls -la
+          if [ ! -f "package.json" ]; then
+            echo "Error: package.json not found!"
+            exit 1
+          fi
           echo "Node version: $(node -v)"
           echo "NPM version: $(npm -v)"
-          npm ci
+          npm ci || exit 1
           
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -52,15 +53,21 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Verify theme
+      - name: Verify environment
         run: |
           echo "Current directory: $PWD"
           echo "Directory contents:"
           ls -la
+          if [ ! -d "themes/hugo-saasify-theme" ]; then
+            echo "Error: Theme directory not found!"
+            exit 1
+          fi
+          if [ ! -f "hugo.toml" ]; then
+            echo "Error: hugo.toml not found!"
+            exit 1
+          fi
           echo "Theme directory contents:"
           ls -la themes/hugo-saasify-theme/
-          echo "Config file contents:"
-          cat hugo.toml
 
       - name: Build with Hugo
         env:
@@ -71,17 +78,36 @@ jobs:
           echo "Hugo version:"
           hugo version
           echo "Building site..."
-          hugo --minify --debug
+          HUGO_OUTPUT=$(hugo --minify --debug 2>&1) || {
+            echo "Hugo build failed with output:"
+            echo "$HUGO_OUTPUT"
+            exit 1
+          }
           echo "Build complete. Checking output:"
-          if [ -d "public" ]; then
-            echo "public directory exists"
-            ls -la public/
-            echo "Files in public directory:"
-            find public/ -type f
-          else
-            echo "Error: public directory not found!"
+          if [ ! -d "public" ]; then
+            echo "Error: public directory not found after build!"
             exit 1
           fi
+          echo "public directory contents:"
+          ls -la public/
+          if [ ! "$(find public -type f)" ]; then
+            echo "Error: public directory is empty!"
+            exit 1
+          fi
+          echo "Files in public directory:"
+          find public/ -type f
+
+      - name: Debug artifact
+        run: |
+          echo "Preparing artifact..."
+          if [ ! -d "public" ]; then
+            echo "Error: public directory missing before artifact upload!"
+            exit 1
+          fi
+          echo "public directory size:"
+          du -sh public/
+          echo "public directory structure:"
+          tree public/ || find public/ -type f
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
