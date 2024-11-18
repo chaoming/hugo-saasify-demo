@@ -13,6 +13,19 @@ client_logos:
     logo: "/images/client-logo-1.svg"
   - name: "FutureAI"
     logo: "/images/client-logo-1.svg"
+testimonials:
+  - name: "John Smith"
+    title: "Product Manager at Company"
+    avatar: "/images/testimonial-1.svg"
+    quote: "This platform has transformed how we understand our users. The insights we've gained have been invaluable for our product development."
+  - name: "Sarah Johnson"
+    title: "CTO at StartupCo"
+    avatar: "/images/testimonial-1.svg"
+    quote: "The real-time analytics and session recordings have helped us identify and fix critical UX issues we never knew existed."
+  - name: "Michael Chen"
+    title: "Head of Product at TechFirm"
+    avatar: "/images/testimonial-1.svg"
+    quote: "The ease of implementation and depth of insights make this platform stand out. It's become an essential tool for our product team."
 ---
 
 {{< hero 
@@ -58,3 +71,18 @@ client_logos:
 >}}
 
 {{< /features-section >}}
+
+{{< testimonials 
+    title="Loved by Teams Worldwide"
+    description="See what our customers have to say about their experience with our platform."
+    animate="true"
+>}}
+
+{{< cta
+    title="Ready to Transform Your User Experience?"
+    description="Join thousands of companies already using our platform to drive growth."
+    primary_button_text="Get Started Free"
+    primary_button_url="#"
+    secondary_button_text="Schedule Demo"
+    secondary_button_url="#"
+>}}
