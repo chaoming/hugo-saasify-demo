@@ -1,18 +1,16 @@
 ---
 title: Home
 client_logos:
-  - name: "TechCorp"
-    logo: "/images/client-logo-1.svg"
-  - name: "InnovateLabs"
-    logo: "/images/client-logo-1.svg"
-  - name: "DataFlow"
-    logo: "/images/client-logo-1.svg"
-  - name: "CloudSys"
-    logo: "/images/client-logo-1.svg"
-  - name: "SmartTech"
-    logo: "/images/client-logo-1.svg"
-  - name: "FutureAI"
-    logo: "/images/client-logo-1.svg"
+  - name: "Customer 1"
+    logo: "/images/logos/customer-1.png"
+  - name: "Customer 2"
+    logo: "/images/logos/customer-2.png"
+  - name: "Customer 3"
+    logo: "/images/logos/customer-3.png"
+  - name: "Customer 4"
+    logo: "/images/logos/customer-4.png"
+  - name: "Customer 5"
+    logo: "/images/logos/customer-5.png"
 testimonials:
   - name: "John Smith"
     title: "CTO at TechStartup"
