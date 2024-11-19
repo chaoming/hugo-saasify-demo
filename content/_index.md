@@ -15,25 +15,25 @@ client_logos:
     logo: "/images/client-logo-1.svg"
 testimonials:
   - name: "John Smith"
-    title: "Product Manager at Company"
+    title: "CTO at TechStartup"
     avatar: "/images/testimonial-1.svg"
-    quote: "Our team's productivity has increased by 40% since implementing this platform. The automated workflows have eliminated countless hours of manual work."
+    quote: "We built our SaaS website in record time. The performance is incredible, and our users love the modern, clean design."
   - name: "Sarah Johnson"
-    title: "CTO at StartupCo"
+    title: "Founder at WebFlow"
     avatar: "/images/testimonial-1.svg"
-    quote: "The task management and collaboration features have transformed how our teams work together. Projects that used to take weeks now take days."
+    quote: "The combination of Hugo and TailwindCSS delivers lightning-fast performance. Our website loads instantly, which has significantly improved our conversion rates."
   - name: "Michael Chen"
-    title: "Head of Product at TechFirm"
+    title: "Lead Developer at CloudTech"
     avatar: "/images/testimonial-1.svg"
-    quote: "This platform has streamlined our entire workflow. The integration capabilities and automation tools have made a huge impact on our daily operations."
+    quote: "This theme made it easy to create a professional SaaS website. The build times are incredibly fast, and the code is clean and maintainable."
 ---
 
 {{< hero 
-    headline="Supercharge Your Team's Productivity"
-    sub_headline="Transform the way your team works with smart automation, seamless collaboration, and powerful workflow optimization tools."
+    headline="Build Your SaaS Website"
+    sub_headline="Create stunning, responsive websites that load instantly. Built with Hugo and TailwindCSS for maximum performance and flexibility."
     primary_button_text="Get Started Free"
     primary_button_url="#"
-    secondary_button_text="Schedule Demo"
+    secondary_button_text="View Demo"
     secondary_button_url="#"
     hero_image="/images/hero-dashboard.svg"
     background_color_gradient="from-blue-50 to-white"
@@ -42,59 +42,59 @@ testimonials:
 {{< client-logos animate="true" >}}
 
 {{< features-section 
-    title="Features That Drive Results"
-    description="Discover how our platform helps teams accomplish more in less time with smart productivity tools."
+    title="Modern Features for Modern Websites"
+    description="Discover how our theme helps you build fast, beautiful SaaS websites with ease."
 >}}
 
 {{< feature
-    title="Smart Workflow Automation"
-    description="Automate repetitive tasks and streamline your workflows. Build custom automation rules that save hours of manual work every week."
-    badge="Automation"
+    title="Lightning-Fast Performance"
+    description="Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
+    badge="Performance"
     badgeColor="#2563eb"
     image="/images/feature-analytics.svg"
     buttonText="Learn More"
     buttonLink="#"
-    features="Custom workflow automation,Task scheduling,Integration with popular tools,Progress tracking"
+    features="Sub-second page loads,Optimized assets,Minimal JavaScript,CDN-ready output"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Seamless Team Collaboration"
-    description="Enable your team to work together effortlessly with real-time collaboration tools, shared workspaces, and intelligent task management."
-    badge="Collaboration"
+    title="Beautiful Design System"
+    description="Create stunning user interfaces with our comprehensive design system built on TailwindCSS. Customize everything to match your brand."
+    badge="Design"
     badgeColor="#7c3aed"
     image="/images/feature-session.svg"
     buttonText="Learn More"
     buttonLink="#"
-    features="Real-time collaboration,Project templates,Resource management,Team analytics"
+    features="Modern UI components,Responsive design,Custom typography,Flexible layouts"
     imagePosition="left"
 >}}
 
 {{< feature
-    title="Productivity Intelligence"
-    description="Gain deep insights into your team's productivity patterns and identify opportunities for improvement with AI-powered analytics."
-    badge="Analytics"
+    title="Developer Experience"
+    description="Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
+    badge="Development"
     badgeColor="#16a34a"
     image="/images/feature-analytics.svg"
     buttonText="Learn More"
     buttonLink="#"
-    features="Performance metrics,Time tracking,Productivity trends,AI recommendations"
+    features="Component system,Easy customization,Clean code,Detailed documentation"
     imagePosition="right"
 >}}
 
 {{< /features-section >}}
 
 {{< testimonials 
-    title="Trusted by Productive Teams Worldwide"
-    description="See how teams are achieving more with our productivity platform."
+    title="Trusted by Modern Web Teams"
+    description="See how teams are building better websites with our theme."
     animate="true"
 >}}
 
 {{< cta
-    title="Ready to Boost Your Team's Productivity?"
-    description="Join thousands of teams already using our platform to work smarter, not harder."
+    title="Ready to Build Your SaaS Website?"
+    description="Join companies already using our theme to create beautiful, high-performance websites."
     primary_button_text="Get Started Free"
     primary_button_url="#"
-    secondary_button_text="Schedule Demo"
+    secondary_button_text="View Demo"
     secondary_button_url="#"
 >}}
