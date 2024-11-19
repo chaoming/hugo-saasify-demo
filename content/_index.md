@@ -17,20 +17,20 @@ testimonials:
   - name: "John Smith"
     title: "Product Manager at Company"
     avatar: "/images/testimonial-1.svg"
-    quote: "This platform has transformed how we understand our users. The insights we've gained have been invaluable for our product development."
+    quote: "Our team's productivity has increased by 40% since implementing this platform. The automated workflows have eliminated countless hours of manual work."
   - name: "Sarah Johnson"
     title: "CTO at StartupCo"
     avatar: "/images/testimonial-1.svg"
-    quote: "The real-time analytics and session recordings have helped us identify and fix critical UX issues we never knew existed."
+    quote: "The task management and collaboration features have transformed how our teams work together. Projects that used to take weeks now take days."
   - name: "Michael Chen"
     title: "Head of Product at TechFirm"
     avatar: "/images/testimonial-1.svg"
-    quote: "The ease of implementation and depth of insights make this platform stand out. It's become an essential tool for our product team."
+    quote: "This platform has streamlined our entire workflow. The integration capabilities and automation tools have made a huge impact on our daily operations."
 ---
 
 {{< hero 
-    headline="Unlock the Hidden Revenue in Your User Journeys"
-    sub_headline="Transform your user experience with powerful analytics and insights that drive growth and engagement."
+    headline="Supercharge Your Team's Productivity"
+    sub_headline="Transform the way your team works with smart automation, seamless collaboration, and powerful workflow optimization tools."
     primary_button_text="Get Started Free"
     primary_button_url="#"
     secondary_button_text="Schedule Demo"
@@ -42,45 +42,57 @@ testimonials:
 {{< client-logos animate="true" >}}
 
 {{< features-section 
-    title="Powerful Features for Modern Teams"
-    description="Discover how our platform helps you understand and optimize every aspect of your user experience."
+    title="Features That Drive Results"
+    description="Discover how our platform helps teams accomplish more in less time with smart productivity tools."
 >}}
 
 {{< feature
-    title="Deep Insights into User Behavior"
-    description="Track and analyze user interactions in real-time. Understand how users navigate your product and identify opportunities for improvement."
-    badge="User Analytics"
-    badgeColor="primary"
+    title="Smart Workflow Automation"
+    description="Automate repetitive tasks and streamline your workflows. Build custom automation rules that save hours of manual work every week."
+    badge="Automation"
+    badgeColor="#2563eb"
     image="/images/feature-analytics.svg"
     buttonText="Learn More"
     buttonLink="#"
-    features="Real-time user tracking,Behavioral analytics,Custom event tracking,User flow visualization"
+    features="Custom workflow automation,Task scheduling,Integration with popular tools,Progress tracking"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Watch Real User Sessions"
-    description="Understand exactly how users interact with your product through high-fidelity session recordings and heatmaps."
-    badge="Session Replay"
-    badgeColor="secondary"
+    title="Seamless Team Collaboration"
+    description="Enable your team to work together effortlessly with real-time collaboration tools, shared workspaces, and intelligent task management."
+    badge="Collaboration"
+    badgeColor="#7c3aed"
     image="/images/feature-session.svg"
     buttonText="Learn More"
     buttonLink="#"
-    features="Full session recordings,Click and scroll heatmaps,Error tracking,User journey analysis"
+    features="Real-time collaboration,Project templates,Resource management,Team analytics"
     imagePosition="left"
+>}}
+
+{{< feature
+    title="Productivity Intelligence"
+    description="Gain deep insights into your team's productivity patterns and identify opportunities for improvement with AI-powered analytics."
+    badge="Analytics"
+    badgeColor="#16a34a"
+    image="/images/feature-analytics.svg"
+    buttonText="Learn More"
+    buttonLink="#"
+    features="Performance metrics,Time tracking,Productivity trends,AI recommendations"
+    imagePosition="right"
 >}}
 
 {{< /features-section >}}
 
 {{< testimonials 
-    title="Loved by Teams Worldwide"
-    description="See what our customers have to say about their experience with our platform."
+    title="Trusted by Productive Teams Worldwide"
+    description="See how teams are achieving more with our productivity platform."
     animate="true"
 >}}
 
 {{< cta
-    title="Ready to Transform Your User Experience?"
-    description="Join thousands of companies already using our platform to drive growth."
+    title="Ready to Boost Your Team's Productivity?"
+    description="Join thousands of teams already using our platform to work smarter, not harder."
     primary_button_text="Get Started Free"
     primary_button_url="#"
     secondary_button_text="Schedule Demo"
