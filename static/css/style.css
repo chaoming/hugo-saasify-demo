@@ -3910,6 +3910,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#3B82F6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -4180,6 +4185,19 @@ h1, h2, h3, h4, h5, h6 {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.\!text-white {
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1)) !important;
+}
+
+.\!no-underline {
+  text-decoration-line: none !important;
+}
+
+.no-underline {
+  text-decoration-line: none;
 }
 
 .opacity-50 {
@@ -5927,6 +5945,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(53 72 171 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-\[\#2563EB\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:text-gray-900:hover {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
@@ -5940,6 +5963,16 @@ h1, h2, h3, h4, h5, h6 {
 .hover\:text-primary-700:hover {
   --tw-text-opacity: 1;
   color: rgb(53 72 171 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.hover\:\!text-white:hover {
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1)) !important;
 }
 
 .hover\:shadow-lg:hover {

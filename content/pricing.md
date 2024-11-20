@@ -1,7 +1,7 @@
 ---
 title: "Pricing"
 description: "Choose the perfect plan for your needs"
-layout: "simple"
+layout: "pricing"
 ---
 
 {{< pricing-table-1 >}}
