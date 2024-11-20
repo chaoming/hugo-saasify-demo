@@ -5,7 +5,7 @@ author: "Jane Smith"
 description: "Learn how to customize your Hugo theme to create a unique website that matches your brand and requirements."
 categories: ["Development"]
 tags: ["hugo", "themes", "customization", "web-design"]
-featured_image: "/images/blog/blog-2.jpg"
+featured_image: "/images/blog/blog-2.webp"
 ---
 
 {{< toc >}}
