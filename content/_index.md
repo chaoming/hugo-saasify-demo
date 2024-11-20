@@ -34,7 +34,9 @@ testimonials:
     secondary_button_text="View Demo"
     secondary_button_url="#"
     hero_image="/images/hero-dashboard.svg"
-    background_color_gradient="from-blue-50 to-white"
+    gradient-from="#dbeafe"
+    gradient-to="#f3e8ff"
+    gradient-angle="180"
 >}}
 
 {{< client-logos animate="true" >}}
@@ -86,6 +88,7 @@ testimonials:
     title="Trusted by Modern Web Teams"
     description="See how teams are building better websites with our theme."
     animate="true"
+    background-color="#f1f5f9"
 >}}
 
 {{< cta
@@ -95,4 +98,7 @@ testimonials:
     primary_button_url="#"
     secondary_button_text="View Demo"
     secondary_button_url="#"
+    gradient-from="#2563eb"
+    gradient-to="#7c3aed"
+    gradient-angle="30"
 >}}
