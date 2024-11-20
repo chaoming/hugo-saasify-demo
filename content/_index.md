@@ -91,14 +91,4 @@ testimonials:
     background-color="#f1f5f9"
 >}}
 
-{{< cta
-    title="Ready to Build Your SaaS Website?"
-    description="Join companies already using our theme to create beautiful, high-performance websites."
-    primary_button_text="Get Started Free"
-    primary_button_url="#"
-    secondary_button_text="View Demo"
-    secondary_button_url="#"
-    gradient-from="#2563eb"
-    gradient-to="#7c3aed"
-    gradient-angle="30"
->}}
+{{< cta >}}

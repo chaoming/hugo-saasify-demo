@@ -13,10 +13,34 @@ enableEmoji = true
 # Enable Git info for lastmod
 enableGitInfo = true
 
+# Enable taxonomies
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+# Pagination
+paginate = 6
+paginatePath = "page"
+
 [params]
   description = ""
   author = "Chaoming Li"
   logo = "/images/logo.svg"
+  
+  # Global CTA Configuration
+  [params.cta]
+    enable = true
+    title = "Ready to Build Your SaaS Website?"
+    description = "Join companies already using our theme to create beautiful, high-performance websites."
+    gradient_from = "#2563eb"  # Indigo-600
+    gradient_to = "#7c3aed"    # Purple-600
+    gradient_angle = 30
+    [params.cta.primary_button]
+      text = "Get Started Free"
+      url = "/get-started"
+    [params.cta.secondary_button]
+      text = "Book Demo"
+      url = "/demo"
   
   # Social Media Links
   [params.social]
@@ -58,6 +82,46 @@ enableGitInfo = true
         text = "Get Started"
         url = "/get-started"
 
+  # Blog configuration
+  [params.blog]
+    enable = true
+    title = "Latest Articles"
+    subtitle = "Learn more about web development and best practices"
+    
+    # Blog CTA configuration
+    [params.blog.cta]
+      enable = true  # Enable/disable CTA in blog posts
+    
+    # Sidebar configuration
+    [params.blog.sidebar]
+      # Recent articles section
+      [params.blog.sidebar.recent]
+        enable = true
+        title = "Recent Articles"
+        count = 5
+      
+      # Categories section
+      [params.blog.sidebar.categories]
+        enable = true
+        title = "Categories"
+      
+      # Tags section
+      [params.blog.sidebar.tags]
+        enable = true
+        title = "Popular Tags"
+        count = 20
+
+      # Subscribe form section
+      [params.blog.sidebar.subscribe]
+        enable = true
+        title = "Subscribe to Newsletter"
+        description = "Get the latest posts delivered right to your inbox"
+        action = "https://formspree.io/f/your-form-id"
+        emailName = "email"
+        buttonText = "Subscribe"
+        placeholder = "Enter your email"
+        disclaimer = "We respect your privacy. Unsubscribe at any time."
+
 [module]
   [module.hugoVersion]
     extended = true
@@ -76,8 +140,15 @@ enableGitInfo = true
   [markup.highlight]
     noClasses = false
     lineNos = true
+    codeFences = true
+    guessSyntax = true
+    lineNumbersInTable = true
   [markup.goldmark.renderer]
     unsafe = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
 
 # Navigation Menu
 [menu]
