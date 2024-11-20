@@ -2705,6 +2705,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -2723,18 +2727,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .mt-12 {
   margin-top: 3rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .block {
@@ -2789,10 +2781,6 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 100vh;
 }
 
-.min-h-\[calc\(100vh-80px\)\] {
-  min-height: calc(100vh - 80px);
-}
-
 .w-12 {
   width: 3rem;
 }
@@ -2813,6 +2801,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.\!max-w-none {
+  max-width: none !important;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -2821,20 +2813,8 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 80rem;
 }
 
-.max-w-4xl {
-  max-width: 56rem;
-}
-
-.\!max-w-none {
-  max-width: none !important;
-}
-
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.flex-grow {
-  flex-grow: 1;
 }
 
 .transform {
@@ -2966,11 +2946,6 @@ h1, h2, h3, h4, h5, h6 {
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
-}
-
-.border-gray-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
 }
 
 .border-white {
@@ -3274,11 +3249,6 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(66 90 214 / var(--tw-text-opacity, 1));
 }
 
-.focus\:border-primary-500:focus {
-  --tw-border-opacity: 1;
-  border-color: rgb(85 115 223 / var(--tw-border-opacity, 1));
-}
-
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -3290,11 +3260,6 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.focus\:ring-primary-500:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(85 115 223 / var(--tw-ring-opacity, 1));
-}
-
 .focus\:ring-primary-600:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(66 90 214 / var(--tw-ring-opacity, 1));
@@ -3302,14 +3267,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .focus\:ring-offset-2:focus {
   --tw-ring-offset-width: 2px;
-}
-
-.prose-headings\:mb-4 :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-  margin-bottom: 1rem;
-}
-
-.prose-headings\:font-bold :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-  font-weight: 700;
 }
 
 @media (min-width: 640px) {
