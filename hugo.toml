@@ -180,13 +180,18 @@ paginatePath = "page"
     url = "/pricing"
     weight = 2
   [[menu.main]]
-    name = "Company"
-    url = "/company"
-    weight = 3
-  [[menu.main]]
     name = "Blog"
     url = "/blog"
+    weight = 3
+  [[menu.main]]
+    name = "Company"
     weight = 4
+    [menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "About Us", url = "/company/" },
+        { name = "Careers", url = "/careers/" }
+      ]
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
@@ -204,12 +209,12 @@ paginatePath = "page"
 
   # Footer Column 2 Menu
   [[menu.footer_column_2]]
-    name = "Company"
-    url = "/company"
-    weight = 1
-  [[menu.footer_column_2]]
     name = "Blog"
     url = "/blog"
+    weight = 1
+  [[menu.footer_column_2]]
+    name = "About Us"
+    url = "/company"
     weight = 2
   [[menu.footer_column_2]]
     name = "Careers"
