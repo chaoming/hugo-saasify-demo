@@ -161,8 +161,8 @@ paginatePath = "page"
     url = "/pricing"
     weight = 2
   [[menu.main]]
-    name = "About"
-    url = "/about"
+    name = "Company"
+    url = "/company"
     weight = 3
   [[menu.main]]
     name = "Blog"
@@ -185,8 +185,8 @@ paginatePath = "page"
 
   # Footer Column 2 Menu
   [[menu.footer_column_2]]
-    name = "About"
-    url = "/about"
+    name = "Company"
+    url = "/company"
     weight = 1
   [[menu.footer_column_2]]
     name = "Blog"
