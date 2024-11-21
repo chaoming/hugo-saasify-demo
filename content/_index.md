@@ -53,7 +53,7 @@ testimonials:
     badgeColor="#2563eb"
     image="/images/feature-1.svg"
     buttonText="Learn More"
-    buttonLink="#"
+    buttonLink="/features/performance/"
     features="Sub-second page loads,Optimized assets,Minimal JavaScript,CDN-ready output"
     imagePosition="right"
 >}}
@@ -65,7 +65,7 @@ testimonials:
     badgeColor="#7c3aed"
     image="/images/feature-2.svg"
     buttonText="Learn More"
-    buttonLink="#"
+    buttonLink="/features/design-system/"
     features="Modern UI components,Responsive design,Custom typography,Flexible layouts"
     imagePosition="left"
 >}}
@@ -77,7 +77,7 @@ testimonials:
     badgeColor="#16a34a"
     image="/images/feature-3.svg"
     buttonText="Learn More"
-    buttonLink="#"
+    buttonLink="/features/developer-experience/"
     features="Component system,Easy customization,Clean code,Detailed documentation"
     imagePosition="right"
 >}}

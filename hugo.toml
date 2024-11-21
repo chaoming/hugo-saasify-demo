@@ -53,7 +53,7 @@ paginatePath = "page"
   
   # Footer Configuration
   [params.footer]
-    column_1_title = "PRODUCT"
+    column_1_title = "Features"
     column_2_title = "COMPANY"
     column_3_title = "LEGAL"
   
@@ -69,6 +69,19 @@ paginatePath = "page"
     # Menu configuration
     [params.header.menu]
       spacing = "space-x-8"
+      
+      # Dropdown menu configuration
+      [params.header.menu.dropdown]
+        width = "w-72"
+        container_padding = "py-6"
+        item_padding = "px-8 py-3"
+        background = "bg-white"
+        border = "border border-gray-100"
+        shadow = "shadow-xl"
+        radius = "rounded-lg"
+        text_color = "text-gray-700"
+        hover_background = "hover:bg-gray-50"
+        text_size = "text-sm"
     
     # Button configuration
     [params.header.buttons]
@@ -154,8 +167,14 @@ paginatePath = "page"
 [menu]
   [[menu.main]]
     name = "Features"
-    url = "/features"
     weight = 1
+    [menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "Performance", url = "/features/performance/" },
+        { name = "Design System", url = "/features/design-system/" },
+        { name = "Developer Experience", url = "/features/developer-experience/" }
+      ]
   [[menu.main]]
     name = "Pricing"
     url = "/pricing"
@@ -171,16 +190,16 @@ paginatePath = "page"
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
-    name = "Features"
-    url = "/features"
+    name = "Performance"
+    url = "/features/performance/"
     weight = 1
   [[menu.footer_column_1]]
-    name = "Pricing"
-    url = "/pricing"
+    name = "Design System"
+    url = "/features/design-system/"
     weight = 2
   [[menu.footer_column_1]]
-    name = "Documentation"
-    url = "/docs"
+    name = "Developer Experience"
+    url = "/features/developer-experience/"
     weight = 3
 
   # Footer Column 2 Menu
