@@ -26,6 +26,7 @@ paginatePath = "page"
   description = ""
   author = "Chaoming Li"
   logo = "/images/logo.svg"
+  googleAnalytics = "G-E6RMRJ4HQ3"
   
   # Global CTA Configuration
   [params.cta]
