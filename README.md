@@ -9,41 +9,17 @@ This demo site demonstrates:
 - Common use cases for SaaS websites
 - Theme customization examples
 - Content organization patterns
+- Github Action example for deploying to Github Pages
+
+![Hugo Saasify Theme Screenshot](https://raw.githubusercontent.com/chaoming/hugo-saasify-theme/main/screenshots/screenshot1.png)
+
+![Hugo Saasify Theme Screenshot 2](https://raw.githubusercontent.com/chaoming/hugo-saasify-theme/main/screenshots/screenshot2.png)
+
+![Hugo Saasify Theme Screenshot 3](https://raw.githubusercontent.com/chaoming/hugo-saasify-theme/main/screenshots/screenshot3.png)
 
 ## Quick Start
 
-1. Clone this repository:
-   ```bash
-   git clone --recursive https://github.com/yourusername/hugo-saasify-demo
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd hugo-saasify-demo
-   ```
-
-3. Start the Hugo server:
-   ```bash
-   hugo server -D
-   ```
-
-4. Open your browser and visit: http://localhost:1313
-
-## Structure
-
-```
-.
-├── content/          # Site content
-├── hugo.toml         # Site configuration
-└── themes/
-    └── hugo-saasify-theme/  # Theme submodule
-```
-
-## Content Management
-
-- Content is organized in the `content/` directory
-- The homepage is configured through `content/_index.md`
-- Site settings can be customized in `hugo.toml`
+This demo site is not designed for you to clone. Please visit [https://github.com/chaoming/hugo-saasify-theme](https://github.com/chaoming/hugo-saasify-theme)
 
 ## Theme
 
