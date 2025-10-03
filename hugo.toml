@@ -181,12 +181,16 @@ paginatePath = "page"
     url = "/pricing"
     weight = 2
   [[menu.main]]
-    name = "Blog"
-    url = "/blog"
+    name = "Docs"
+    url = "/docs"
     weight = 3
   [[menu.main]]
-    name = "Company"
+    name = "Blog"
+    url = "/blog"
     weight = 4
+  [[menu.main]]
+    name = "Company"
+    weight = 5
     [menu.main.params]
       has_submenu = true
       submenu = [
