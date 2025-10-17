@@ -1,0 +1,151 @@
+# 常用UI翻译
+[readMore]
+other = "阅读更多"
+
+[readTime]
+other = "分钟阅读"
+
+[published]
+other = "发布于"
+
+[updated]
+other = "更新于"
+
+[by]
+other = "作者"
+
+[shareOn]
+other = "分享到"
+
+[relatedPosts]
+other = "相关文章"
+
+[categories]
+other = "分类"
+
+[tags]
+other = "标签"
+
+[allPosts]
+other = "所有文章"
+
+[search]
+other = "搜索"
+
+[searchPlaceholder]
+other = "搜索文章..."
+
+[noResults]
+other = "未找到结果"
+
+[backToHome]
+other = "返回首页"
+
+[404Title]
+other = "页面未找到"
+
+[404Message]
+other = "您查找的页面不存在或已被移动。"
+
+# 导航
+[home]
+other = "首页"
+
+[about]
+other = "关于"
+
+[contact]
+other = "联系我们"
+
+# 博客
+[latestPosts]
+other = "最新文章"
+
+[recentArticles]
+other = "最近文章"
+
+[popularTags]
+other = "热门标签"
+
+[subscribeNewsletter]
+other = "订阅新闻通讯"
+
+[subscribeDescription]
+other = "将最新文章直接发送到您的收件箱"
+
+[emailPlaceholder]
+other = "输入您的邮箱"
+
+[subscribe]
+other = "订阅"
+
+[subscribeDisclaimer]
+other = "我们尊重您的隐私。您可以随时取消订阅。"
+
+# 页脚
+[copyright]
+other = "© {{ .Year }} {{ .SiteName }}。保留所有权利。"
+
+[builtWith]
+other = "使用"
+
+[and]
+other = "和"
+
+# 语言切换
+[language]
+other = "语言"
+
+[switchLanguage]
+other = "切换语言"
+
+# 功能特性
+[seeItInAction]
+other = "实际演示"
+
+# 定价
+[popular]
+other = "热门"
+
+[mostPopular]
+other = "最受欢迎"
+
+[perMonth]
+other = "/月"
+
+# 文档
+[documentation]
+other = "文档"
+
+# 分页
+[previous]
+other = "上一页"
+
+[next]
+other = "下一页"
+
+# 首页
+[trustedByCompanies]
+other = "受全球领先企业信任"
+
+[lovedByTeams]
+other = "受全球团队喜爱"
+
+[testimonialsDescription]
+other = "看看我们的客户对使用我们平台的体验有何评价。"
+
+# 博客文章
+[tableOfContents]
+other = "目录"
+
+[minRead]
+other = "分钟阅读"
+
+[previousPost]
+other = "上一篇"
+
+[nextPost]
+other = "下一篇"
+
+[dateFormat]
+other = "2006年1月2日"

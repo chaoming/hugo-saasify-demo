@@ -1,0 +1,151 @@
+# Common UI translations
+[readMore]
+other = "Read More"
+
+[readTime]
+other = "min read"
+
+[published]
+other = "Published"
+
+[updated]
+other = "Updated"
+
+[by]
+other = "by"
+
+[shareOn]
+other = "Share on"
+
+[relatedPosts]
+other = "Related Posts"
+
+[categories]
+other = "Categories"
+
+[tags]
+other = "Tags"
+
+[allPosts]
+other = "All Posts"
+
+[search]
+other = "Search"
+
+[searchPlaceholder]
+other = "Search articles..."
+
+[noResults]
+other = "No results found"
+
+[backToHome]
+other = "Back to Home"
+
+[404Title]
+other = "Page Not Found"
+
+[404Message]
+other = "The page you are looking for doesn't exist or has been moved."
+
+# Navigation
+[home]
+other = "Home"
+
+[about]
+other = "About"
+
+[contact]
+other = "Contact"
+
+# Blog
+[latestPosts]
+other = "Latest Posts"
+
+[recentArticles]
+other = "Recent Articles"
+
+[popularTags]
+other = "Popular Tags"
+
+[subscribeNewsletter]
+other = "Subscribe to Newsletter"
+
+[subscribeDescription]
+other = "Get the latest posts delivered right to your inbox"
+
+[emailPlaceholder]
+other = "Enter your email"
+
+[subscribe]
+other = "Subscribe"
+
+[subscribeDisclaimer]
+other = "We respect your privacy. Unsubscribe at any time."
+
+# Footer
+[copyright]
+other = "© {{ .Year }} {{ .SiteName }}. All rights reserved."
+
+[builtWith]
+other = "Built with"
+
+[and]
+other = "and"
+
+# Language switcher
+[language]
+other = "Language"
+
+[switchLanguage]
+other = "Switch Language"
+
+# Features
+[seeItInAction]
+other = "See it in action"
+
+# Pricing
+[popular]
+other = "Popular"
+
+[mostPopular]
+other = "Most Popular"
+
+[perMonth]
+other = "/month"
+
+# Documentation
+[documentation]
+other = "Documentation"
+
+# Pagination
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
+# Homepage
+[trustedByCompanies]
+other = "Trusted by leading companies worldwide"
+
+[lovedByTeams]
+other = "Loved by Teams Worldwide"
+
+[testimonialsDescription]
+other = "See what our customers have to say about their experience with our platform."
+
+# Blog Post
+[tableOfContents]
+other = "Table of Contents"
+
+[minRead]
+other = "min read"
+
+[previousPost]
+other = "Previous Post"
+
+[nextPost]
+other = "Next Post"
+
+[dateFormat]
+other = "January 2, 2006"
