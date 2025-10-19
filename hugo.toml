@@ -19,6 +19,34 @@ theme = "hugo-saasify-theme"
     weight = 2
     contentDir = "content/zh-cn"
 
+  [languages.de]
+    languageCode = "de-de"
+    languageName = "Deutsch"
+    title = "Saasify"
+    weight = 3
+    contentDir = "content/de"
+
+  [languages.fr]
+    languageCode = "fr-fr"
+    languageName = "Français"
+    title = "Saasify"
+    weight = 4
+    contentDir = "content/fr"
+
+  [languages.es]
+    languageCode = "es-es"
+    languageName = "Español"
+    title = "Saasify"
+    weight = 5
+    contentDir = "content/es"
+
+  [languages.pt]
+    languageCode = "pt-pt"
+    languageName = "Português"
+    title = "Saasify"
+    weight = 6
+    contentDir = "content/pt"
+
 # Enable syntax highlighting (moved to markup.highlight section below for modern Hugo)
 # pygmentsCodeFences = true
 # pygmentsUseClasses = true
@@ -235,6 +263,162 @@ paginatePath = "page"
     title = "最新文章"
     subtitle = "了解更多关于网站开发和最佳实践的内容"
 
+# German language specific params
+[languages.de.params]
+  # Global CTA Configuration
+  [languages.de.params.cta]
+    enable = true
+    title = "Bereit, Ihre SaaS-Website zu erstellen?"
+    description = "Schließen Sie sich Unternehmen an, die unser Theme bereits verwenden, um schöne, leistungsstarke Websites zu erstellen."
+    gradient_from = "#2563eb"  # Indigo-600
+    gradient_to = "#7c3aed"    # Purple-600
+    gradient_angle = 30
+    [languages.de.params.cta.primary_button]
+      text = "Kostenlos starten"
+      url = "/de/get-started"
+    [languages.de.params.cta.secondary_button]
+      text = "Demo buchen"
+      url = "/de/demo"
+
+  # Footer Configuration
+  [languages.de.params.footer]
+    column_1_title = "FUNKTIONEN"
+    column_2_title = "UNTERNEHMEN"
+    column_3_title = "RECHTLICHES"
+
+  # Header Configuration
+  [languages.de.params.header]
+    [languages.de.params.header.buttons]
+      [languages.de.params.header.buttons.signIn]
+        text = "Anmelden"
+        url = "/de/signin"
+      [languages.de.params.header.buttons.getStarted]
+        text = "Jetzt starten"
+        url = "/de/get-started"
+
+  # Blog configuration
+  [languages.de.params.blog]
+    enable = true
+    title = "Neueste Artikel"
+    subtitle = "Erfahren Sie mehr über Webentwicklung und Best Practices"
+
+# French language specific params
+[languages.fr.params]
+  # Global CTA Configuration
+  [languages.fr.params.cta]
+    enable = true
+    title = "Prêt à créer votre site SaaS ?"
+    description = "Rejoignez les entreprises qui utilisent déjà notre thème pour créer de magnifiques sites web performants."
+    gradient_from = "#2563eb"  # Indigo-600
+    gradient_to = "#7c3aed"    # Purple-600
+    gradient_angle = 30
+    [languages.fr.params.cta.primary_button]
+      text = "Commencer gratuitement"
+      url = "/fr/get-started"
+    [languages.fr.params.cta.secondary_button]
+      text = "Réserver une démo"
+      url = "/fr/demo"
+
+  # Footer Configuration
+  [languages.fr.params.footer]
+    column_1_title = "FONCTIONNALITÉS"
+    column_2_title = "ENTREPRISE"
+    column_3_title = "LÉGAL"
+
+  # Header Configuration
+  [languages.fr.params.header]
+    [languages.fr.params.header.buttons]
+      [languages.fr.params.header.buttons.signIn]
+        text = "Connexion"
+        url = "/fr/signin"
+      [languages.fr.params.header.buttons.getStarted]
+        text = "Commencer"
+        url = "/fr/get-started"
+
+  # Blog configuration
+  [languages.fr.params.blog]
+    enable = true
+    title = "Derniers articles"
+    subtitle = "En savoir plus sur le développement web et les meilleures pratiques"
+
+# Spanish language specific params
+[languages.es.params]
+  # Global CTA Configuration
+  [languages.es.params.cta]
+    enable = true
+    title = "¿Listo para crear tu sitio web SaaS?"
+    description = "Únete a las empresas que ya utilizan nuestro tema para crear sitios web hermosos y de alto rendimiento."
+    gradient_from = "#2563eb"  # Indigo-600
+    gradient_to = "#7c3aed"    # Purple-600
+    gradient_angle = 30
+    [languages.es.params.cta.primary_button]
+      text = "Empezar gratis"
+      url = "/es/get-started"
+    [languages.es.params.cta.secondary_button]
+      text = "Reservar demo"
+      url = "/es/demo"
+
+  # Footer Configuration - IMPORTANT: Required for footer to display correctly
+  [languages.es.params.footer]
+    column_1_title = "CARACTERÍSTICAS"
+    column_2_title = "EMPRESA"
+    column_3_title = "LEGAL"
+
+  # Header Configuration
+  [languages.es.params.header]
+    [languages.es.params.header.buttons]
+      [languages.es.params.header.buttons.signIn]
+        text = "Iniciar sesión"
+        url = "/es/signin"
+      [languages.es.params.header.buttons.getStarted]
+        text = "Comenzar"
+        url = "/es/get-started"
+
+  # Blog configuration
+  [languages.es.params.blog]
+    enable = true
+    title = "Últimos artículos"
+    subtitle = "Aprende más sobre desarrollo web y mejores prácticas"
+
+# Portuguese language specific params
+[languages.pt.params]
+  # Global CTA Configuration
+  [languages.pt.params.cta]
+    enable = true
+    title = "Pronto para criar seu site SaaS?"
+    description = "Junte-se às empresas que já usam nosso tema para criar sites bonitos e de alto desempenho."
+    gradient_from = "#2563eb"  # Indigo-600
+    gradient_to = "#7c3aed"    # Purple-600
+    gradient_angle = 30
+    [languages.pt.params.cta.primary_button]
+      text = "Começar grátis"
+      url = "/pt/get-started"
+    [languages.pt.params.cta.secondary_button]
+      text = "Agendar demo"
+      url = "/pt/demo"
+
+  # Footer Configuration - IMPORTANT: Required for footer to display correctly
+  [languages.pt.params.footer]
+    column_1_title = "RECURSOS"
+    column_2_title = "EMPRESA"
+    column_3_title = "LEGAL"
+
+  # Header Configuration
+  [languages.pt.params.header]
+    [languages.pt.params.header.buttons]
+      [languages.pt.params.header.buttons.signIn]
+        text = "Entrar"
+        url = "/pt/signin"
+      [languages.pt.params.header.buttons.getStarted]
+        text = "Começar"
+        url = "/pt/get-started"
+
+  # Blog configuration
+  [languages.pt.params.blog]
+    enable = true
+    title = "Últimos artigos"
+    subtitle = "Aprenda mais sobre desenvolvimento web e melhores práticas"
+
 # English Navigation Menu
 [languages.en.menu]
   [[languages.en.menu.main]]
@@ -377,4 +561,292 @@ paginatePath = "page"
   [[languages.zh-cn.menu.footer_column_3]]
     name = "隐私政策"
     url = "/zh-cn/privacy"
+    weight = 2
+
+# German Navigation Menu
+[languages.de.menu]
+  [[languages.de.menu.main]]
+    name = "Funktionen"
+    weight = 1
+    [languages.de.menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "Leistung", url = "/de/features/performance/" },
+        { name = "Design-System", url = "/de/features/design-system/" },
+        { name = "Entwicklererfahrung", url = "/de/features/developer-experience/" }
+      ]
+  [[languages.de.menu.main]]
+    name = "Preise"
+    url = "/de/pricing"
+    weight = 2
+  [[languages.de.menu.main]]
+    name = "Dokumentation"
+    url = "/de/docs"
+    weight = 3
+  [[languages.de.menu.main]]
+    name = "Blog"
+    url = "/de/blog"
+    weight = 4
+  [[languages.de.menu.main]]
+    name = "Unternehmen"
+    weight = 5
+    [languages.de.menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "Über uns", url = "/de/company/" },
+        { name = "Karriere", url = "/de/careers/" }
+      ]
+
+  # Footer Column 1 Menu
+  [[languages.de.menu.footer_column_1]]
+    name = "Leistung"
+    url = "/de/features/performance/"
+    weight = 1
+  [[languages.de.menu.footer_column_1]]
+    name = "Design-System"
+    url = "/de/features/design-system/"
+    weight = 2
+  [[languages.de.menu.footer_column_1]]
+    name = "Entwicklererfahrung"
+    url = "/de/features/developer-experience/"
+    weight = 3
+
+  # Footer Column 2 Menu
+  [[languages.de.menu.footer_column_2]]
+    name = "Blog"
+    url = "/de/blog"
+    weight = 1
+  [[languages.de.menu.footer_column_2]]
+    name = "Über uns"
+    url = "/de/company"
+    weight = 2
+  [[languages.de.menu.footer_column_2]]
+    name = "Karriere"
+    url = "/de/careers"
+    weight = 3
+
+  # Footer Column 3 Menu
+  [[languages.de.menu.footer_column_3]]
+    name = "Lizenz"
+    url = "/de/license"
+    weight = 1
+  [[languages.de.menu.footer_column_3]]
+    name = "Datenschutz"
+    url = "/de/privacy"
+    weight = 2
+
+# French Navigation Menu
+[languages.fr.menu]
+  [[languages.fr.menu.main]]
+    name = "Fonctionnalités"
+    weight = 1
+    [languages.fr.menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "Performance", url = "/fr/features/performance/" },
+        { name = "Système de design", url = "/fr/features/design-system/" },
+        { name = "Expérience développeur", url = "/fr/features/developer-experience/" }
+      ]
+  [[languages.fr.menu.main]]
+    name = "Tarifs"
+    url = "/fr/pricing"
+    weight = 2
+  [[languages.fr.menu.main]]
+    name = "Documentation"
+    url = "/fr/docs"
+    weight = 3
+  [[languages.fr.menu.main]]
+    name = "Blog"
+    url = "/fr/blog"
+    weight = 4
+  [[languages.fr.menu.main]]
+    name = "Entreprise"
+    weight = 5
+    [languages.fr.menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "À propos", url = "/fr/company/" },
+        { name = "Carrières", url = "/fr/careers/" }
+      ]
+
+  # Footer Column 1 Menu
+  [[languages.fr.menu.footer_column_1]]
+    name = "Performance"
+    url = "/fr/features/performance/"
+    weight = 1
+  [[languages.fr.menu.footer_column_1]]
+    name = "Système de design"
+    url = "/fr/features/design-system/"
+    weight = 2
+  [[languages.fr.menu.footer_column_1]]
+    name = "Expérience développeur"
+    url = "/fr/features/developer-experience/"
+    weight = 3
+
+  # Footer Column 2 Menu
+  [[languages.fr.menu.footer_column_2]]
+    name = "Blog"
+    url = "/fr/blog"
+    weight = 1
+  [[languages.fr.menu.footer_column_2]]
+    name = "À propos"
+    url = "/fr/company"
+    weight = 2
+  [[languages.fr.menu.footer_column_2]]
+    name = "Carrières"
+    url = "/fr/careers"
+    weight = 3
+
+  # Footer Column 3 Menu
+  [[languages.fr.menu.footer_column_3]]
+    name = "Licence"
+    url = "/fr/license"
+    weight = 1
+  [[languages.fr.menu.footer_column_3]]
+    name = "Confidentialité"
+    url = "/fr/privacy"
+    weight = 2
+
+# Spanish Navigation Menu
+[languages.es.menu]
+  [[languages.es.menu.main]]
+    name = "Características"
+    weight = 1
+    [languages.es.menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "Rendimiento", url = "/es/features/performance/" },
+        { name = "Sistema de diseño", url = "/es/features/design-system/" },
+        { name = "Experiencia de desarrollo", url = "/es/features/developer-experience/" }
+      ]
+  [[languages.es.menu.main]]
+    name = "Precios"
+    url = "/es/pricing"
+    weight = 2
+  [[languages.es.menu.main]]
+    name = "Documentación"
+    url = "/es/docs"
+    weight = 3
+  [[languages.es.menu.main]]
+    name = "Blog"
+    url = "/es/blog"
+    weight = 4
+  [[languages.es.menu.main]]
+    name = "Empresa"
+    weight = 5
+    [languages.es.menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "Acerca de", url = "/es/company/" },
+        { name = "Carreras", url = "/es/careers/" }
+      ]
+
+  # Footer Column 1 Menu
+  [[languages.es.menu.footer_column_1]]
+    name = "Rendimiento"
+    url = "/es/features/performance/"
+    weight = 1
+  [[languages.es.menu.footer_column_1]]
+    name = "Sistema de diseño"
+    url = "/es/features/design-system/"
+    weight = 2
+  [[languages.es.menu.footer_column_1]]
+    name = "Experiencia de desarrollo"
+    url = "/es/features/developer-experience/"
+    weight = 3
+
+  # Footer Column 2 Menu
+  [[languages.es.menu.footer_column_2]]
+    name = "Blog"
+    url = "/es/blog"
+    weight = 1
+  [[languages.es.menu.footer_column_2]]
+    name = "Acerca de"
+    url = "/es/company"
+    weight = 2
+  [[languages.es.menu.footer_column_2]]
+    name = "Carreras"
+    url = "/es/careers"
+    weight = 3
+
+  # Footer Column 3 Menu
+  [[languages.es.menu.footer_column_3]]
+    name = "Licencia"
+    url = "/es/license"
+    weight = 1
+  [[languages.es.menu.footer_column_3]]
+    name = "Privacidad"
+    url = "/es/privacy"
+    weight = 2
+
+# Portuguese Navigation Menu
+[languages.pt.menu]
+  [[languages.pt.menu.main]]
+    name = "Recursos"
+    weight = 1
+    [languages.pt.menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "Desempenho", url = "/pt/features/performance/" },
+        { name = "Sistema de design", url = "/pt/features/design-system/" },
+        { name = "Experiência do desenvolvedor", url = "/pt/features/developer-experience/" }
+      ]
+  [[languages.pt.menu.main]]
+    name = "Preços"
+    url = "/pt/pricing"
+    weight = 2
+  [[languages.pt.menu.main]]
+    name = "Documentação"
+    url = "/pt/docs"
+    weight = 3
+  [[languages.pt.menu.main]]
+    name = "Blog"
+    url = "/pt/blog"
+    weight = 4
+  [[languages.pt.menu.main]]
+    name = "Empresa"
+    weight = 5
+    [languages.pt.menu.main.params]
+      has_submenu = true
+      submenu = [
+        { name = "Sobre nós", url = "/pt/company/" },
+        { name = "Carreiras", url = "/pt/careers/" }
+      ]
+
+  # Footer Column 1 Menu
+  [[languages.pt.menu.footer_column_1]]
+    name = "Desempenho"
+    url = "/pt/features/performance/"
+    weight = 1
+  [[languages.pt.menu.footer_column_1]]
+    name = "Sistema de design"
+    url = "/pt/features/design-system/"
+    weight = 2
+  [[languages.pt.menu.footer_column_1]]
+    name = "Experiência do desenvolvedor"
+    url = "/pt/features/developer-experience/"
+    weight = 3
+
+  # Footer Column 2 Menu
+  [[languages.pt.menu.footer_column_2]]
+    name = "Blog"
+    url = "/pt/blog"
+    weight = 1
+  [[languages.pt.menu.footer_column_2]]
+    name = "Sobre nós"
+    url = "/pt/company"
+    weight = 2
+  [[languages.pt.menu.footer_column_2]]
+    name = "Carreiras"
+    url = "/pt/careers"
+    weight = 3
+
+  # Footer Column 3 Menu
+  [[languages.pt.menu.footer_column_3]]
+    name = "Licença"
+    url = "/pt/license"
+    weight = 1
+  [[languages.pt.menu.footer_column_3]]
+    name = "Privacidade"
+    url = "/pt/privacy"
     weight = 2

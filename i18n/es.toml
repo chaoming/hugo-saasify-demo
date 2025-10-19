@@ -1,0 +1,151 @@
+# Common UI translations
+[readMore]
+other = "Leer más"
+
+[readTime]
+other = "min de lectura"
+
+[published]
+other = "Publicado"
+
+[updated]
+other = "Actualizado"
+
+[by]
+other = "por"
+
+[shareOn]
+other = "Compartir en"
+
+[relatedPosts]
+other = "Artículos relacionados"
+
+[categories]
+other = "Categorías"
+
+[tags]
+other = "Etiquetas"
+
+[allPosts]
+other = "Todos los artículos"
+
+[search]
+other = "Buscar"
+
+[searchPlaceholder]
+other = "Buscar artículos..."
+
+[noResults]
+other = "No se encontraron resultados"
+
+[backToHome]
+other = "Volver al inicio"
+
+[404Title]
+other = "Página no encontrada"
+
+[404Message]
+other = "La página que buscas no existe o ha sido movida."
+
+# Navigation
+[home]
+other = "Inicio"
+
+[about]
+other = "Acerca de"
+
+[contact]
+other = "Contacto"
+
+# Blog
+[latestPosts]
+other = "Últimos artículos"
+
+[recentArticles]
+other = "Artículos recientes"
+
+[popularTags]
+other = "Etiquetas populares"
+
+[subscribeNewsletter]
+other = "Suscríbete al boletín"
+
+[subscribeDescription]
+other = "Recibe los últimos artículos directamente en tu bandeja de entrada"
+
+[emailPlaceholder]
+other = "Tu dirección de correo electrónico"
+
+[subscribe]
+other = "Suscribirse"
+
+[subscribeDisclaimer]
+other = "Respetamos tu privacidad. Cancela la suscripción en cualquier momento."
+
+# Footer
+[copyright]
+other = "© {{ .Year }} {{ .SiteName }}. Todos los derechos reservados."
+
+[builtWith]
+other = "Creado con"
+
+[and]
+other = "y"
+
+# Language switcher
+[language]
+other = "Idioma"
+
+[switchLanguage]
+other = "Cambiar idioma"
+
+# Features
+[seeItInAction]
+other = "Ver en acción"
+
+# Pricing
+[popular]
+other = "Popular"
+
+[mostPopular]
+other = "Más popular"
+
+[perMonth]
+other = "/mes"
+
+# Documentation
+[documentation]
+other = "Documentación"
+
+# Pagination
+[previous]
+other = "Anterior"
+
+[next]
+other = "Siguiente"
+
+# Homepage
+[trustedByCompanies]
+other = "Con la confianza de empresas líderes en todo el mundo"
+
+[lovedByTeams]
+other = "Amado por equipos de todo el mundo"
+
+[testimonialsDescription]
+other = "Descubre lo que nuestros clientes dicen sobre su experiencia con nuestra plataforma."
+
+# Blog Post
+[tableOfContents]
+other = "Tabla de contenidos"
+
+[minRead]
+other = "min de lectura"
+
+[previousPost]
+other = "Artículo anterior"
+
+[nextPost]
+other = "Siguiente artículo"
+
+[dateFormat]
+other = "2 de January de 2006"

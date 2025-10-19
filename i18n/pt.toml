@@ -1,0 +1,151 @@
+# Common UI translations
+[readMore]
+other = "Ler mais"
+
+[readTime]
+other = "min de leitura"
+
+[published]
+other = "Publicado"
+
+[updated]
+other = "Atualizado"
+
+[by]
+other = "por"
+
+[shareOn]
+other = "Compartilhar em"
+
+[relatedPosts]
+other = "Artigos relacionados"
+
+[categories]
+other = "Categorias"
+
+[tags]
+other = "Tags"
+
+[allPosts]
+other = "Todos os artigos"
+
+[search]
+other = "Pesquisar"
+
+[searchPlaceholder]
+other = "Pesquisar artigos..."
+
+[noResults]
+other = "Nenhum resultado encontrado"
+
+[backToHome]
+other = "Voltar ao início"
+
+[404Title]
+other = "Página não encontrada"
+
+[404Message]
+other = "A página que você está procurando não existe ou foi movida."
+
+# Navigation
+[home]
+other = "Início"
+
+[about]
+other = "Sobre"
+
+[contact]
+other = "Contato"
+
+# Blog
+[latestPosts]
+other = "Últimos artigos"
+
+[recentArticles]
+other = "Artigos recentes"
+
+[popularTags]
+other = "Tags populares"
+
+[subscribeNewsletter]
+other = "Assinar newsletter"
+
+[subscribeDescription]
+other = "Receba os últimos artigos diretamente na sua caixa de entrada"
+
+[emailPlaceholder]
+other = "Seu endereço de e-mail"
+
+[subscribe]
+other = "Assinar"
+
+[subscribeDisclaimer]
+other = "Respeitamos sua privacidade. Cancele a assinatura a qualquer momento."
+
+# Footer
+[copyright]
+other = "© {{ .Year }} {{ .SiteName }}. Todos os direitos reservados."
+
+[builtWith]
+other = "Criado com"
+
+[and]
+other = "e"
+
+# Language switcher
+[language]
+other = "Idioma"
+
+[switchLanguage]
+other = "Mudar idioma"
+
+# Features
+[seeItInAction]
+other = "Ver em ação"
+
+# Pricing
+[popular]
+other = "Popular"
+
+[mostPopular]
+other = "Mais popular"
+
+[perMonth]
+other = "/mês"
+
+# Documentation
+[documentation]
+other = "Documentação"
+
+# Pagination
+[previous]
+other = "Anterior"
+
+[next]
+other = "Próximo"
+
+# Homepage
+[trustedByCompanies]
+other = "Confiado por empresas líderes em todo o mundo"
+
+[lovedByTeams]
+other = "Amado por equipes em todo o mundo"
+
+[testimonialsDescription]
+other = "Descubra o que nossos clientes dizem sobre sua experiência com nossa plataforma."
+
+# Blog Post
+[tableOfContents]
+other = "Índice"
+
+[minRead]
+other = "min de leitura"
+
+[previousPost]
+other = "Artigo anterior"
+
+[nextPost]
+other = "Próximo artigo"
+
+[dateFormat]
+other = "2 de January de 2006"

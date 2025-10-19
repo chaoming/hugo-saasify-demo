@@ -1,0 +1,151 @@
+# Common UI translations
+[readMore]
+other = "Lire la suite"
+
+[readTime]
+other = "min de lecture"
+
+[published]
+other = "Publié"
+
+[updated]
+other = "Mis à jour"
+
+[by]
+other = "par"
+
+[shareOn]
+other = "Partager sur"
+
+[relatedPosts]
+other = "Articles connexes"
+
+[categories]
+other = "Catégories"
+
+[tags]
+other = "Tags"
+
+[allPosts]
+other = "Tous les articles"
+
+[search]
+other = "Rechercher"
+
+[searchPlaceholder]
+other = "Rechercher des articles..."
+
+[noResults]
+other = "Aucun résultat trouvé"
+
+[backToHome]
+other = "Retour à l'accueil"
+
+[404Title]
+other = "Page non trouvée"
+
+[404Message]
+other = "La page que vous recherchez n'existe pas ou a été déplacée."
+
+# Navigation
+[home]
+other = "Accueil"
+
+[about]
+other = "À propos"
+
+[contact]
+other = "Contact"
+
+# Blog
+[latestPosts]
+other = "Derniers articles"
+
+[recentArticles]
+other = "Articles récents"
+
+[popularTags]
+other = "Tags populaires"
+
+[subscribeNewsletter]
+other = "S'abonner à la newsletter"
+
+[subscribeDescription]
+other = "Recevez les derniers articles directement dans votre boîte de réception"
+
+[emailPlaceholder]
+other = "Votre adresse e-mail"
+
+[subscribe]
+other = "S'abonner"
+
+[subscribeDisclaimer]
+other = "Nous respectons votre vie privée. Désabonnez-vous à tout moment."
+
+# Footer
+[copyright]
+other = "© {{ .Year }} {{ .SiteName }}. Tous droits réservés."
+
+[builtWith]
+other = "Créé avec"
+
+[and]
+other = "et"
+
+# Language switcher
+[language]
+other = "Langue"
+
+[switchLanguage]
+other = "Changer de langue"
+
+# Features
+[seeItInAction]
+other = "Voir en action"
+
+# Pricing
+[popular]
+other = "Populaire"
+
+[mostPopular]
+other = "Le plus populaire"
+
+[perMonth]
+other = "/mois"
+
+# Documentation
+[documentation]
+other = "Documentation"
+
+# Pagination
+[previous]
+other = "Précédent"
+
+[next]
+other = "Suivant"
+
+# Homepage
+[trustedByCompanies]
+other = "La confiance des entreprises leaders dans le monde"
+
+[lovedByTeams]
+other = "Adoré par les équipes du monde entier"
+
+[testimonialsDescription]
+other = "Découvrez ce que nos clients disent de leur expérience avec notre plateforme."
+
+# Blog Post
+[tableOfContents]
+other = "Table des matières"
+
+[minRead]
+other = "min de lecture"
+
+[previousPost]
+other = "Article précédent"
+
+[nextPost]
+other = "Article suivant"
+
+[dateFormat]
+other = "2 January 2006"

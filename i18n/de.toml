@@ -1,0 +1,151 @@
+# Common UI translations
+[readMore]
+other = "Mehr lesen"
+
+[readTime]
+other = "Min. Lesezeit"
+
+[published]
+other = "Veröffentlicht"
+
+[updated]
+other = "Aktualisiert"
+
+[by]
+other = "von"
+
+[shareOn]
+other = "Teilen auf"
+
+[relatedPosts]
+other = "Verwandte Beiträge"
+
+[categories]
+other = "Kategorien"
+
+[tags]
+other = "Schlagwörter"
+
+[allPosts]
+other = "Alle Beiträge"
+
+[search]
+other = "Suchen"
+
+[searchPlaceholder]
+other = "Artikel suchen..."
+
+[noResults]
+other = "Keine Ergebnisse gefunden"
+
+[backToHome]
+other = "Zurück zur Startseite"
+
+[404Title]
+other = "Seite nicht gefunden"
+
+[404Message]
+other = "Die gesuchte Seite existiert nicht oder wurde verschoben."
+
+# Navigation
+[home]
+other = "Startseite"
+
+[about]
+other = "Über uns"
+
+[contact]
+other = "Kontakt"
+
+# Blog
+[latestPosts]
+other = "Neueste Beiträge"
+
+[recentArticles]
+other = "Aktuelle Artikel"
+
+[popularTags]
+other = "Beliebte Schlagwörter"
+
+[subscribeNewsletter]
+other = "Newsletter abonnieren"
+
+[subscribeDescription]
+other = "Erhalten Sie die neuesten Beiträge direkt in Ihr Postfach"
+
+[emailPlaceholder]
+other = "Ihre E-Mail-Adresse"
+
+[subscribe]
+other = "Abonnieren"
+
+[subscribeDisclaimer]
+other = "Wir respektieren Ihre Privatsphäre. Jederzeit abbestellbar."
+
+# Footer
+[copyright]
+other = "© {{ .Year }} {{ .SiteName }}. Alle Rechte vorbehalten."
+
+[builtWith]
+other = "Erstellt mit"
+
+[and]
+other = "und"
+
+# Language switcher
+[language]
+other = "Sprache"
+
+[switchLanguage]
+other = "Sprache wechseln"
+
+# Features
+[seeItInAction]
+other = "In Aktion sehen"
+
+# Pricing
+[popular]
+other = "Beliebt"
+
+[mostPopular]
+other = "Am beliebtesten"
+
+[perMonth]
+other = "/Monat"
+
+# Documentation
+[documentation]
+other = "Dokumentation"
+
+# Pagination
+[previous]
+other = "Zurück"
+
+[next]
+other = "Weiter"
+
+# Homepage
+[trustedByCompanies]
+other = "Vertrauen von führenden Unternehmen weltweit"
+
+[lovedByTeams]
+other = "Geliebt von Teams weltweit"
+
+[testimonialsDescription]
+other = "Erfahren Sie, was unsere Kunden über ihre Erfahrungen mit unserer Plattform sagen."
+
+# Blog Post
+[tableOfContents]
+other = "Inhaltsverzeichnis"
+
+[minRead]
+other = "Min. Lesezeit"
+
+[previousPost]
+other = "Vorheriger Beitrag"
+
+[nextPost]
+other = "Nächster Beitrag"
+
+[dateFormat]
+other = "2. January 2006"
