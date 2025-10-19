@@ -71,7 +71,12 @@ paginatePath = "page"
   author = "Chaoming Li"
   logo = "/images/logo.svg"
   googleAnalytics = "G-E6RMRJ4HQ3"
-  
+
+  # VisitorAPI Project ID for automatic language detection
+  # Set this to enable auto-detection of visitor's language
+  # If not set, language detection will be disabled
+  visitorapi_pid = "IsL95QAhh27rXStHRpUk"
+
   # Social Media Links
   [params.social]
     linkedin = "https://linkedin.com/in/chaomingli"
