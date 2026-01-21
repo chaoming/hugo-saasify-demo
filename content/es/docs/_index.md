@@ -21,6 +21,13 @@ Comienza con Hugo Saasify en minutos:
 3. **[Personalización](/es/docs/customization/)** - Hazlo tuyo
 4. **[Despliegue](/es/docs/deployment/)** - Pon tu sitio en línea
 
+## Profundización
+
+Explora guías detalladas sobre temas específicos:
+
+- **[Componentes](/es/docs/components/)** - Componentes UI preconstruidos (Hero, Precios, Características)
+- **[Integraciones](/es/docs/integrations/)** - Conecta Analytics, Formularios y más
+
 ## Características clave
 
 - **Ultrarrápido** - Construido en Hugo para rendimiento inigualable

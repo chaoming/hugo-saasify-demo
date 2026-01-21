@@ -21,6 +21,13 @@ Hugo Saasify是一个现代、功能丰富的Hugo主题，专为SaaS企业设计
 3. **[自定义](/zh-cn/docs/customization/)** - 使其成为您自己的
 4. **[部署](/zh-cn/docs/deployment/)** - 让您的网站上线
 
+## 深入了解
+
+探索特定主题的详细指南：
+
+- **[组件](/zh-cn/docs/components/)** - 预构建的UI组件（Hero、定价、功能展示）
+- **[集成](/zh-cn/docs/integrations/)** - 连接分析、表单等服务
+
 ## 主要功能
 
 - **闪电般快速** - 基于Hugo构建，性能无与伦比

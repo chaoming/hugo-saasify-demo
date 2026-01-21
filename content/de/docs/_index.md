@@ -21,6 +21,13 @@ Beginnen Sie mit Hugo Saasify in wenigen Minuten:
 3. **[Anpassung](/de/docs/customization/)** - Machen Sie es zu Ihrem eigenen
 4. **[Bereitstellung](/de/docs/deployment/)** - Gehen Sie live mit Ihrer Site
 
+## Vertiefung
+
+Erkunden Sie detaillierte Anleitungen zu spezifischen Themen:
+
+- **[Komponenten](/de/docs/components/)** - Vorgefertigte UI-Komponenten (Hero, Preistabellen, Features)
+- **[Integrationen](/de/docs/integrations/)** - Verbinden Sie Analytics, Formulare und mehr
+
 ## Hauptmerkmale
 
 - **Blitzschnell** - Aufgebaut auf Hugo für unschlagbare Leistung
